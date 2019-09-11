@@ -39,7 +39,7 @@ A custom service (i3lock.service) was created as a sleep hook.  The user name <b
 
 A custom module (`playerctl.py`) for py3status was used.  Place in `~/.config/py3status/modules/`.
 
-Notebook users can place `40-libinput.conf` in `/usr/share/X11/xorg.conf.d/40-libinput.conf` for trackpad gestures.
+Notebook users can place `30-touchpad.conf` in `/etc/X11/xorg.conf.d/` for trackpad gestures.
 
 ---
 
