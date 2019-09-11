@@ -1,0 +1,21 @@
+# Network Applet
+nm-applet &
+
+# Japanese Input
+fcitx &
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+export DefaultIMModule=fcitx
+
+# Restore Wallpaper
+nitrogen --restore &
+
+# Compton
+compton -bc &
+
+# Mount Disk Notification
+udiskie -ans &
+
+# Sound Switcher
+indicator-sound-switcher &
