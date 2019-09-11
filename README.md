@@ -9,6 +9,8 @@ A clean and lightweight space theme with minimal transparency for i3-gaps
 * Menu: [Rofi](https://github.com/davatorium/rofi)
 * Taskbar: [py3status](https://github.com/ultrabug/py3status)
 * Compositor: [Compton](https://github.com/chjj/compton)
+
+Apps running in screenshot: [Vim](https://github.com/vim/vim), [Ranger](https://github.com/ranger/ranger), and [gotop](https://github.com/cjbassi/gotop).
 <br>
 
 <b>Features:</b>
