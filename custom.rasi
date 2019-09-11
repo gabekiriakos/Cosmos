@@ -1,0 +1,103 @@
+/************************************************
+ * ROFI Color theme
+ * Theme by MuLDeRiZeD
+ ***********************************************/
+
+* {
+    backgroundcolor:          rgba ( 0, 0, 0, 35 % );
+    bg1:                      rgba ( 150, 150, 150, 100 % );
+    backgroundcoloralternate: rgba ( 0, 0, 0, 35 % );
+    separatorcolor:           rgba ( 0, 0, 0, 35 % );
+    scrollbarcolor:           rgba ( 150, 150, 150, 50 % );
+    foregroundcolor:          rgba( 255, 255, 255, 90 % );
+    foregroundcolorinverse:   rgba( 255, 255, 255, 90 % );
+    selectioncolor:           rgba( 150, 150, 150, 35 % );
+    font-size: 1px;
+    border-color: @separatorcolor;
+    background-color: @backgroundcolor;
+    text-color: @foregroundcolor;
+    margin: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    spacing: 0;
+}
+#window {
+    background-color: @backgroundcolor;
+    border-color: @separatorcolor;
+    border: 0;
+    border-radius: 2px;
+}
+#mainbox {
+    border: 0;
+    padding: 5;
+    background-color: @backgroundcoloralternate;
+}
+
+#listview {
+    spacing: 0;
+    scrollbar: false;
+    margin: 0;
+    dynamic: true;
+}
+#element {
+    padding: 5;
+    border: 0 0 0 0;
+    border-color: @separatorcolor;
+    background-color: @backgroundcoloralternate;
+}
+
+
+#element.normal.active {
+    background-color: @backgroundcoloralternate;
+}
+#element.selected.normal {
+    background-color: @selectioncolor;
+    text-color: @foregroundcolorinverse;
+    border-radius: 0px;
+
+    border: 0 0 0 0;
+    border-color: @separatorcolor;
+}
+
+#element.selected.active {
+    background-color: @selectioncolor;
+    text-color: @foregroundcolorinverse;
+    border-radius: 0px;
+
+    border: 0 0 0 0;
+    border-color: @separatorcolor;
+}
+#element.alternate.normal {
+    background-color: @backgroundcoloralternate;
+}
+
+#element.alternate.active {
+    background-color: @backgroundcoloralternate;
+}
+#scrollbar {
+    border: 0;
+    width: 3px;
+    handle-color: @scrollbarcolor;
+    handle-width: 3px;
+    background-color: @backgroundcoloralternate;
+}
+
+#scrollbar handle {
+    border: 1px;
+    border-color: #ff0000;
+}
+
+#entry {
+    padding: 5;
+}
+#prompt {
+    padding: 0;
+    background-color: @backgroundcoloralternate;
+    border: 0 1 0 0;
+}
+#inputbar {
+    border: 0 solid 0 solid 0 solid 0 solid;
+    margin: 0;
+    spacing: 0;
+    border-color: @separatorcolor;
+}
