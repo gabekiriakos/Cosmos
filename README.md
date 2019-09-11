@@ -9,6 +9,7 @@ A clean look to i3-gaps
 * Menu: [Rofi](https://github.com/davatorium/rofi)
 * Taskbar: [py3status](https://github.com/ultrabug/py3status)
 * Compositor: [Compton](https://github.com/chjj/compton)
+<br>
 
 <b>Features:</b>
 * System Menu (Shutdown, Suspend, etc.): `$mod+e`
