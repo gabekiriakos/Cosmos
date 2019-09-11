@@ -1,5 +1,5 @@
 # Cosmos
-A clean look to i3-gaps
+A clean and lightweight space theme with minimal transparency for i3-gaps
 
 <b>Overview:</b>
 * OS: [Arch](https://www.archlinux.org/)
