@@ -1,4 +1,4 @@
-# Clean
+# Cosmos
 A clean look to i3-gaps
 
 <b>Overview:</b>
