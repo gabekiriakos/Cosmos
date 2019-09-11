@@ -1,7 +1,7 @@
 # Clean
 A clean look to i3-gaps
 
-<b>Overview:</b><br>
+<b>Overview:</b>
 * OS: [Arch](https://www.archlinux.org/)
 * Wallpaper: Here
 * WM: [i3-gaps](https://github.com/Airblader/i3)
@@ -10,7 +10,7 @@ A clean look to i3-gaps
 * Taskbar: [py3status](https://github.com/ultrabug/py3status)
 * Compositor: [Compton](https://github.com/chjj/compton)
 
-<b>Features:</b><br>
+<b>Features:</b>
 * System Menu (Shutdown, Suspend, etc.): `$mod+e`
 * Rofi Menu: `$mod+d`<br>
 <i>Simple drop-down menu with minimal transparency.  Place `custom.rasi` in `/usr/share/rofi/themes/`. Enable with `rofi-theme-selector`.</i>
