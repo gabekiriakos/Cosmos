@@ -15,7 +15,7 @@ User can modify these features to their liking in the i3 `.config`.
 ---
 
 <b>Dependencies:</b><br>
-<i>i3-gaps, i3blocks, i3lock-fancy-rapid, rofi, compton, lightdm, noto sans fonts, awesome fonts, ttf-monaco, termite, dunst, nitrogen, lxappearance, acpid, ntfs-3g, udisks2, udiskie, mesa (Intel GFX), lib32-mesa (Intel GFX), vulkan-intel (Intel GFX), powerline, alsa-utils, pulseaudio, pavucontrol, light (xbacklight alternative for laptops)</i>
+<i>i3-gaps, i3status, py3status, i3lock-fancy-rapid, rofi, compton, lightdm, noto sans fonts, awesome fonts, ttf-monaco, termite, dunst, nitrogen, lxappearance, acpid, ntfs-3g, udisks2, udiskie, mesa (Intel GFX), lib32-mesa (Intel GFX), vulkan-intel (Intel GFX), powerline, alsa-utils, pulseaudio, pavucontrol, light (xbacklight alternative for laptops)</i>
 
 <b>Optional:</b><br>
 <i>yay, neofetech, network manager, network-manager-applet, bluez, bluez-utils, blueman, noto fonts extra, noto fonts cjk, noto fonts emoji, fcitx, fcitx-configtool, fcitx-mozc, fcitx-im, fcitx-skin-material, baobab, pcmanfm, cmus, cava, neofetch, gtk-engines, gtk-engine-murrine, materia-gtk-theme, flat-remix-gtk, htop, gotop, mons, indicator-sound-switcher, geany, scrot</i>
@@ -32,7 +32,7 @@ A custom module (`playerctl.py`) for py3status was used.  Place in `~/.config/py
 ---
 
 <b>Suggestions:</b><br>
-i3 needs to be installed with the options of i3-gaps, i3-status, i3-blocks, and i3-lock.  A compositor isn't required but is strongly recommended, especially to achieve the look and feel of this theme and transparency effects.  To that end, [compton](https://github.com/chjj/compton) is the best compositor for i3.  Lightdm is assumed to be the default display manager for this setup.
+i3 needs to be installed with the options of i3-gaps, i3-status, and i3-lock.  A compositor isn't required but is strongly recommended, especially to achieve the look and feel of this theme and transparency effects.  To that end, [compton](https://github.com/chjj/compton) is the best compositor for i3.  Lightdm is assumed to be the default display manager for this setup.
 
 All other dependencies listed above should also be installed, especially if you are using a laptop with integrated Intel graphics.  Optional applications are also encouraged for the complete experience.
 
