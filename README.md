@@ -3,7 +3,7 @@ A clean look to i3-gaps
 
 <b>Overview:</b>
 * OS: [Arch](https://www.archlinux.org/)
-* Wallpaper: Here
+* Wallpaper: [Here](/wallpaper.jpg)
 * WM: [i3-gaps](https://github.com/Airblader/i3)
 * Terminal: [Termite](https://github.com/thestinger/termite)
 * Menu: [Rofi](https://github.com/davatorium/rofi)
@@ -57,4 +57,4 @@ For more customizations, go [here](https://thomashunter.name/i3-configurator/) f
 <b>Disclaimer:</b><br>
 <i>I am in no way, shape, or form, responsible for anything that YOU did wrong to your own system.  The user should assume the risks involved before these configurations are attempted.</i>
 
-![GitHub Logo](/Complete.png)
+![GitHub Logo](/screenshot.png)
