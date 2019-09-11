@@ -1,6 +1,15 @@
 # Clean
 A clean look to i3-gaps
 
+<b>Overview:</b><br>
+* OS: [Arch](https://www.archlinux.org/)
+* Wallpaper: Here
+* WM: [i3-gaps](https://github.com/Airblader/i3)
+* Terminal: [Termite](https://github.com/thestinger/termite)
+* Menu: [Rofi](https://github.com/davatorium/rofi)
+* Taskbar: [py3status](https://github.com/ultrabug/py3status)
+* Compositor: [Compton](https://github.com/chjj/compton)
+
 <b>Features:</b><br>
 * System Menu (Shutdown, Suspend, etc.): `$mod+e`
 * Rofi Menu: `$mod+d`<br>
