@@ -1,5 +1,5 @@
 # Clean
-A clean look to i3
+A clean look to i3-gaps
 
 <b>Features:</b><br>
 * System Menu (Shutdown, Suspend, etc.): `$mod+e`
