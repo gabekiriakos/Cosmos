@@ -1,0 +1,83 @@
+# i3status configuration file.
+# see "man i3status" for documentation.
+
+# It is important that this file is edited as UTF-8.
+# The following line should contain a sharp s:
+# ß
+# If the above line is not correctly displayed, fix your editor first!
+
+general {
+        colors = true
+        interval = 1
+}
+
+order += "playerctl"
+order += "volume_status"
+order += "battery_level"
+order += "backlight"
+order += "sysdata"
+order += "disk /"
+order += "tztime local"
+
+volume_status {
+	cache_timeout = 1
+	blocks = ""
+	format = "{icon}  {percentage}%"
+	format_muted = " Muted"
+	separator_block_width = 15
+	 thresholds = [
+        (0, "#FFF"),
+        (10, "#FFF"),
+        (20, "#FFF"),
+        (30, "#FFF"),
+        (40, "#FFF"),
+        (50, "#FFF"),
+        (60, "#FFF"),
+        (70, "#FFF"),
+        (80, "#FFF"),
+        (90, "#FFF"),
+	(100, "#FFF")
+    ]
+}
+	
+battery_level {
+        cache_timeout = 10
+        battery_id = 0
+        blocks = ""
+        charging_character = ""
+        format = "{icon}  {percent}%"
+        format_notify_charging = "Charging ({percent}%), finishing in: {time_remaining}"
+        format_notify_discharging = "Time remaining: {time_remaining}"
+        notification = true
+        notify_low_level = false
+	interger_battery_capacity = true
+	last_full_capacity = true
+	separator_block_width = 15
+}
+
+playerctl {
+	separator_block_width = 15
+}
+
+backlight {
+	format = "  {level}%"
+	cache_timeout = 1
+	separator_block_width = 15
+}
+
+sysdata {
+	format = "  {mem_used} / {mem_total} {mem_total_unit}"
+	cache_timeout = 1
+        separator_block_width = 15
+}
+
+disk "/" {
+        format = "  %avail"
+        separator_block_width = 15
+}
+
+tztime local {
+        format = "  %m-%d-%Y      %H:%M:%S  |"
+        separator_block_width = 15
+}
+
