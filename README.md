@@ -23,7 +23,7 @@ Apps running in screenshot: [Vim](https://github.com/vim/vim) (with [Powerline](
 * Rofi Menu: `$mod+d`<br>
 <i>Simple drop-down menu with minimal transparency.  Place `custom.rasi` in `/usr/share/rofi/themes/`. Enable with `rofi-theme-selector`.</i>
 
-User can modify these features to their liking in the i3 `.config`.
+User can modify these features and more in the i3 `.config`.
 
 ---
 
