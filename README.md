@@ -40,7 +40,7 @@ It is assumed the user has lightdm autologin enabled.  i3lock-fancy-rapid will s
 
 A custom service (i3lock.service) was created as a sleep hook.  The user name <b>must be modified</b>.  Place in `/etc/systemd/system/` and enable using `systemctl enable i3lock.service`.
 
-`i3status.conf` needs to be placed in `/etc/` in order for py3status to work after it is installed.
+The custom `i3status.conf` needs to be placed in `/etc/` in order for py3status to work after it is installed.
 
 A custom module (`playerctl.py`) for py3status was used.  Place in `~/.config/py3status/modules/`.
 
