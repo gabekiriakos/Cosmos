@@ -3,12 +3,12 @@ A clean and lightweight space theme with minimal transparency for i3-gaps
 
 <b>Overview:</b>
 * OS: [Arch](https://www.archlinux.org/)
-* Wallpaper: [Here](/wallpaper.jpg)
 * WM: [i3-gaps](https://github.com/Airblader/i3)
+* Bar: [py3status](https://github.com/ultrabug/py3status)
+* Compositor: [Compton](https://github.com/chjj/compton)
 * Terminal: [Termite](https://github.com/thestinger/termite)
 * Menu: [Rofi](https://github.com/davatorium/rofi)
-* Taskbar: [py3status](https://github.com/ultrabug/py3status)
-* Compositor: [Compton](https://github.com/chjj/compton)
+* Wallpaper: [Here](/wallpaper.jpg)
 
 Apps running in screenshot: [Vim](https://github.com/vim/vim) (with [Powerline](https://github.com/powerline/powerline)), [Ranger](https://github.com/ranger/ranger), and [gotop](https://github.com/cjbassi/gotop).
 <br>
