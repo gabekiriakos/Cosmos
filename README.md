@@ -4,7 +4,7 @@ A clean and lightweight space theme with minimal transparency for i3-gaps
 <b>Overview:</b>
 * OS: [Arch](https://www.archlinux.org/)
 * WM: [i3-gaps](https://github.com/Airblader/i3)
-* Bar: [py3status](https://github.com/ultrabug/py3status)
+* Status: [py3status](https://github.com/ultrabug/py3status)
 * Compositor: [Compton](https://github.com/chjj/compton)
 * Terminal: [Termite](https://github.com/thestinger/termite)
 * Menu: [Rofi](https://github.com/davatorium/rofi)
