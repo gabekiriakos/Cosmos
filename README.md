@@ -16,12 +16,12 @@ Apps running in screenshot: [Vim](https://github.com/vim/vim) (with [Powerline](
 <b>Features:</b>
 * System Menu (Shutdown, Suspend, etc.): `$mod+e`
 * Display Menu (Dock, HDMI, Mirror): `$mod+x`
-* Rofi Menu: `$mod+d`<br>
-<i>Simple drop-down menu with minimal transparency.  Place `custom.rasi` in `/usr/share/rofi/themes/`. Enable with `rofi-theme-selector`.</i>
 * Screenshot (via Scrot): `$mod+p`
 * Toggle Window Floating: `$mod+w`
 * Seamlessly Switch Workspaces: `Mod1+tab`
 * Exit Active Window: `Control+q`
+* Rofi Menu: `$mod+d`<br>
+<i>Simple drop-down menu with minimal transparency.  Place `custom.rasi` in `/usr/share/rofi/themes/`. Enable with `rofi-theme-selector`.</i>
 
 User can modify these features to their liking in the i3 `.config`.
 
