@@ -45,7 +45,7 @@ A custom service (i3lock.service) was created as a sleep hook.  The user name <b
 
 The custom `i3status.conf` needs to be placed in `/etc/` in order for py3status to work after it is installed.
 
-A custom module (`playerctl.py`) for py3status was used.  Place in `~/.config/py3status/modules/`.
+Thanks to (louisswarren)https://gist.github.com/louisswarren a custom module (`playerctl.py`) for py3status is possible.  Place in `~/.config/py3status/modules/`.
 
 Notebook users can place `30-touchpad.conf` in `/etc/X11/xorg.conf.d/` for trackpad gestures.
 
