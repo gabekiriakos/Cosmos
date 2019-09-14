@@ -1,4 +1,4 @@
-<b>Update 9/14/2019</b>: <br>For some reason, the module `playerctl.py` for py3status is outputting multiple instances of the error `No players found` in `.xsession-errors`.  It can still be used but it is buggy and could result in battery drain.  A solution is on the way so please be patient.  In the meantime, avoid or use it at your own risk.
+<b>Update 9/14/2019</b>: <br>For some reason, the module `playerctl.py` for py3status is outputting multiple instances of the error `No players found` in `.xsession-errors`.  It can still be used but it is buggy and could result in battery drain.  A solution is on the way so please be patient.
 
 # Cosmos
 A clean and lightweight space theme with minimal transparency for i3-gaps.<br>
