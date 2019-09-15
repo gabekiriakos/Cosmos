@@ -1,5 +1,5 @@
 # Cosmos
-<b>UPDATE (9/15/2019)</b>: <br>For some reason, the module `playerctl.py` for py3status is outputting multiple instances of the error `No players found` in `.xsession-errors`.  It can still be used but just be aware that the `.xsession-errors` file will grow significantly over time.  Use at your own risk.
+<b>UPDATE (9/15/2019)</b>: <br>For some reason, the module `playerctl.py` for py3status is outputting multiple instances of the error `No players found` in `.xsession-errors`.  It can still be used but just be aware that the `.xsession-errors` file will grow significantly over time.  Use at your own discretion.
 
 A clean and lightweight space theme with minimal transparency for i3-gaps.<br>
 Featured over at [r/unixporn](https://www.reddit.com/r/unixporn/comments/d3ndqi/i3gaps_cosmos/).
