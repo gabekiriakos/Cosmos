@@ -1,5 +1,5 @@
 # Cosmos
-<b>UPDATE (9/15/2019)</b>: <br>Due to errors being generated in `.xsession-errors`, the module `playerctl.py` for py3status has been removed.  It has been replaced with MPRIS.  `python-pydbus` is a required dependency.  Please refer to the updated`i3status.conf`for details and customizations.
+<b>UPDATE (9/15/2019)</b>: <br>Due to errors being generated in `.xsession-errors`, the module `playerctl.py` for py3status has been removed.  It has been replaced with MPRIS.  [python-pydbus](https://www.archlinux.org/packages/community/any/python-pydbus/) is a required dependency.  Please refer to the updated`i3status.conf`for details and customizations.
 
 ---
 
@@ -47,7 +47,7 @@ A custom service (i3lock.service) was created as a sleep hook.  The user name <b
 
 The custom `i3status.conf` needs to be placed in `/etc/` in order for py3status to work after it is installed.
 
-MPRIS is used to display player status.  `python-pydbus` is the only required dependency.
+MPRIS is used to display player status.  [python-pydbus](https://www.archlinux.org/packages/community/any/python-pydbus/) is the only required dependency.
 
 Notebook users can place `30-touchpad.conf` in `/etc/X11/xorg.conf.d/` for trackpad gestures.
 
