@@ -33,7 +33,7 @@ User can modify these features and more in the i3 `.config`.
 ---
 
 <b>Dependencies:</b><br>
-<i>i3-gaps, i3status, py3status, i3lock-fancy-rapid, rofi, compton, lightdm, noto sans fonts, awesome fonts, ttf-monaco, termite, dunst, nitrogen, lxappearance, acpid, ntfs-3g, udisks2, udiskie, mesa (Intel GFX), lib32-mesa (Intel GFX), vulkan-intel (Intel GFX), powerline, alsa-utils, pulseaudio, pavucontrol, light (xbacklight alternative for laptops)</i>
+<i>i3-gaps, i3status, py3status, i3lock-fancy-rapid, rofi, compton, lightdm, noto sans fonts, awesome fonts, ttf-monaco, termite, dunst, nitrogen, lxappearance, acpid, ntfs-3g, udisks2, udiskie, mesa (Intel GFX), lib32-mesa (Intel GFX), vulkan-intel (Intel GFX), powerline, alsa-utils, pulseaudio, pavucontrol, light (xbacklight alternative for laptops), python-pydbus</i>
 
 <b>Optional:</b><br>
 <i>yay, neofetech, network manager, network-manager-applet, bluez, bluez-utils, blueman, noto fonts extra, noto fonts cjk, noto fonts emoji, fcitx, fcitx-configtool, fcitx-mozc, fcitx-im, fcitx-skin-material, baobab, pcmanfm, cmus, cava, neofetch, gtk-engines, gtk-engine-murrine, materia-gtk-theme, flat-remix-gtk, htop, gotop, mons, indicator-sound-switcher, geany, scrot</i>
