@@ -47,7 +47,7 @@ A custom service (i3lock.service) was created as a sleep hook.  The user name <b
 
 The custom `i3status.conf` needs to be placed in `/etc/` in order for py3status to work after it is installed.
 
-MPRIS is used to display player status.  [python-pydbus](https://www.archlinux.org/packages/community/any/python-pydbus/) is the only required dependency.
+MPRIS is used to display player status in py3status.  [python-pydbus](https://www.archlinux.org/packages/community/any/python-pydbus/) is the only required dependency.
 
 Notebook users can place `30-touchpad.conf` in `/etc/X11/xorg.conf.d/` for trackpad gestures.
 
