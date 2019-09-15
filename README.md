@@ -1,5 +1,5 @@
 # Cosmos
-<b>UPDATE (9/15/2019)</b>: <br>Due to errors being generated in `.xsession-errors`, the module `playerctl.py` for py3status has been removed.  It has been replaced with MPRIS.  [python-pydbus](https://www.archlinux.org/packages/community/any/python-pydbus/) is a required dependency.  Please refer to the updated`i3status.conf`for details and customizations.
+<b>UPDATE (9/15/2019)</b>: <br>Due to errors being generated in `.xsession-errors`, the module `playerctl.py` for py3status has been removed.  It has been replaced with MPRIS.  It runs automatically assuming py3status has been installed and enabled.  [python-pydbus](https://www.archlinux.org/packages/community/any/python-pydbus/) is a required dependency.  Please refer to the updated`i3status.conf`for details and customizations.
 
 ---
 
