@@ -244,3 +244,6 @@ for_window [class="vlc"] focus
 
 assign [class="Skype"] $ws6
 for_window [class="Skype"] focus
+
+assign [class="Wine"] $ws7
+for_window [class="Wine"] focus
