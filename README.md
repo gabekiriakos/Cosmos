@@ -4,7 +4,6 @@
 ---
 
 A clean and lightweight space theme with minimal transparency for i3-gaps.<br>
-Featured over at [r/unixporn](https://www.reddit.com/r/unixporn/comments/d3ndqi/i3gaps_cosmos/).
 
 <b>Overview:</b>
 * OS: [Arch](https://www.archlinux.org/)
