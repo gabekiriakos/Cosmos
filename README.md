@@ -1,5 +1,5 @@
 # Cosmos
-<b>UPDATE (9/15/2019)</b>: <br>Due to errors being generated in `.xsession-errors`, the module `playerctl.py` for py3status has been removed.  It has been replaced with MPRIS.  It runs automatically assuming py3status has been installed and enabled.  [python-pydbus](https://www.archlinux.org/packages/community/any/python-pydbus/) is a required dependency.  Please refer to the updated`i3status.conf`for details and customizations.
+<b>UPDATE (11/24/2019)</b>: <br>Deprecated compositor, Compton, has been replaced with [Picom](https://wiki.archlinux.org/index.php/Picom).
 
 ---
 
@@ -8,8 +8,8 @@ A clean and lightweight space theme with minimal transparency for i3-gaps.<br>
 <b>Overview:</b>
 * OS: [Arch](https://www.archlinux.org/)
 * WM: [i3-gaps](https://github.com/Airblader/i3)
-* Status: [py3status](https://github.com/ultrabug/py3status)
-* Compositor: [Compton](https://github.com/chjj/compton)
+* Status: [py3status](https://github.com/ultrabug/py3status)<br>([python-pydbus](https://www.archlinux.org/packages/community/any/python-pydbus/) is a required dependency for MPRIS)
+* Compositor: [Picom](https://github.com/yshui/picom)
 * Terminal: [Termite](https://github.com/thestinger/termite)
 * Menu: [Rofi](https://github.com/davatorium/rofi)
 * Wallpaper: [Here](/wallpaper.jpg)
