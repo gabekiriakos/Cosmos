@@ -40,7 +40,7 @@ User can modify these features and more in the i3 `.config`.
 ---
 
 <b>IMPORTANT:</b><br>
-It is assumed the user has lightdm autologin enabled.  i3lock-fancy-rapid will start upon boot.  To disable this feature, comment out `exec --no-startup-id sleep 1 && i3lock-fancy-rapid 5 3` in the i3 `.config` file.  
+Assuming the user has lightdm autologin enabled, i3lock-fancy-rapid will start upon boot.  To disable this feature, comment out `exec --no-startup-id sleep 1 && i3lock-fancy-rapid 5 3` in the i3 `.config` file.  
 
 A custom service (i3lock.service) was created as a sleep hook.  The user name <b>must be modified</b>.  Place in `/etc/systemd/system/` and enable using `systemctl enable i3lock.service`.
 
