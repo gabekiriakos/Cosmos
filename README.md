@@ -3,7 +3,7 @@
 
 ---
 
-A clean and lightweight space theme with minimal transparency for i3-gaps.<br>
+A clean and lightweight theme with minimal transparency for i3-gaps.<br>
 
 <b>Overview:</b>
 * OS: [Arch](https://www.archlinux.org/)
