@@ -1,5 +1,5 @@
 # Cosmos
-<b>UPDATE (11/24/2019)</b>: <br>Deprecated compositor, Compton, has been replaced with [Picom](https://wiki.archlinux.org/index.php/Picom).
+<b>UPDATE (11/24/2019)</b>: <br>Deprecated compositor, Compton, has been replaced with [Picom](https://wiki.archlinux.org/index.php/Picom).  <i>Note: Updates to python require reinstallation of programs in top-right corner.</i>
 
 ---
 
