@@ -8,7 +8,7 @@ A clean and lightweight theme with minimal transparency for i3-gaps.<br>
 <b>Overview:</b>
 * OS: [Arch](https://www.archlinux.org/)
 * WM: [i3-gaps](https://github.com/Airblader/i3)
-* Status: [py3status](https://github.com/ultrabug/py3status)<br>([python-pydbus](https://www.archlinux.org/packages/community/any/python-pydbus/) is a required dependency for MPRIS)
+* Status: [py3status](https://github.com/ultrabug/py3status)
 * Compositor: [Picom](https://github.com/yshui/picom)
 * Terminal: [Termite](https://github.com/thestinger/termite)
 * Menu: [Rofi](https://github.com/davatorium/rofi)
