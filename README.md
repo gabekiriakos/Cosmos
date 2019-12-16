@@ -53,7 +53,7 @@ Notebook users can place `30-touchpad.conf` in `/etc/X11/xorg.conf.d/` for track
 ---
 
 <b>Suggestions:</b><br>
-i3 needs to be installed with the options of i3-gaps, i3-status, and i3-lock.  A compositor isn't required but is strongly recommended, especially to achieve the look and feel of this theme and transparency effects.  To that end, [compton](https://github.com/chjj/compton) is the best compositor for i3.  Lightdm is assumed to be the default display manager for this setup.
+i3 needs to be installed with the options of i3-gaps, i3-status, and i3-lock.  A compositor isn't required but is strongly recommended, especially to achieve the look and feel of this theme and transparency effects.  To that end, [Picom](https://github.com/yshui/picom) is the best compositor for i3.  Lightdm is assumed to be the default display manager for this setup.
 
 All other dependencies listed above should also be installed, especially if you are using a laptop with integrated Intel graphics.  Optional applications are also encouraged for the complete experience.
 
