@@ -11,7 +11,7 @@ set $mod Mod4
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-font pango:Noto Sans Light 12px 
+font pango:Noto Sans 14px 
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -102,13 +102,13 @@ bindsym $mod+w floating toggle
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "  "
-set $ws2 "  "
-set $ws3 "  "
-set $ws4 "  "
-set $ws5 "  "
-set $ws6 "  "
-set $ws7 "  "
-set $ws8 "|8|"
+set $ws2 "  "
+set $ws3 "  "
+set $ws4 "  "
+set $ws5 "  "
+set $ws6 "  "
+set $ws7 "  "
+set $ws8 "  "
 set $ws9 "|9|"
 set $ws10 "|10|"
 
@@ -210,9 +210,9 @@ bindsym XF86AudioNext exec --no-startup-id playerctl next
 bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 
 # Floating Specific Windows
-for_window [class="vlc"] floating enable
-for_window [class="Spotify"] floating enable
-for_window [class="Skype"] floating enable
+#for_window [class="vlc"] floating enable
+#for_window [class="Spotify"] floating enable
+#for_window [class="Skype"] floating enable
 #for_window [class="firefox"] floating enable
 for_window [class="Pcmanfm"] floating enable
 for_window [class="Nitrogen"] floating enable
@@ -228,22 +228,26 @@ for_window [class="Steam"] floating enable
 for_window [class="Lutris"] floating enable
 
 # Assign Workspaces
-assign [class="firefox"] $ws2
+assign [class="code"] $ws2
+for_window [class="code"] focus
+
+assign [class="firefox"] $ws3
 for_window [class="firefox"] focus
 
-for_window [class="Spotify"] move to workspace $ws3 focus
+assign [class="Spotify"] $ws4
+for_window [class="Spotify"] move to workspace $ws4 focus
 
-assign [class="Steam"] $ws4
+assign [class="Steam"] $ws5
 for_window [class="Steam"] focus
 
-assign [class="Lutris"] $ws4
+assign [class="Lutris"] $ws5
 for_window [class="Lutris"] focus
 
-assign [class="vlc"] $ws5
+assign [class="vlc"] $ws6
 for_window [class="vlc"] focus
 
-assign [class="Skype"] $ws6
+assign [class="Skype"] $ws7
 for_window [class="Skype"] focus
 
-assign [class="Wine"] $ws7
+assign [class="Wine"] $ws8
 for_window [class="Wine"] focus
