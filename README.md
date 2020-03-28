@@ -1,5 +1,5 @@
 # Cosmos
-<b>UPDATE (3/28/2020)</b>: <br>Several changes to i3 config.  <br><br><i>Note: Updates to python may require reinstallation of several programs.</i>
+<b>UPDATE (3/28/2020)</b>: <br>Several personal changes to i3 config.  <br><i>Note: Updates to python may require reinstallation of several programs.</i>
 
 ---
 
